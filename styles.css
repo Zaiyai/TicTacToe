@@ -2,8 +2,16 @@ body {
   background: #FAFFAF;
 }
 
+.container {
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
 button {
   border: 2px solid black;
   background: black;
   color: white;
+  flex: 1;
 }
